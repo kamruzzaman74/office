@@ -1,0 +1,148 @@
+.portfolio{
+
+
+    margin:4rem 6rem;
+    color:black;
+
+}
+.portfolio h1{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin-top: -3rem;
+   
+}
+
+.portfolio h4{
+
+    font-size: 1rem;
+    color:rgb(102, 101, 101);
+}
+.aboutcard{
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+
+}
+.a-card{
+    width: 40%;
+    height:40%;
+    text-align: start;
+    box-shadow: 1px 0px 2px 0px rgba(192, 10, 10, 0.856);
+    border-radius: 7px;
+    cursor:pointer;
+    padding:1rem  .8rem;
+    padding-bottom: 20%;
+
+
+}
+.a-image{
+
+    size:100px;
+    height:400px;
+    overflow: hidden;
+    border-radius: 5px;;
+}
+.a-image img{
+    width:70%;
+    height:70%;
+    transition:0.3s ese-in-out;
+    border-radius: 10px;
+
+}
+.a-image:hover img{
+
+    transform:scale(1.3);
+
+}
+.a-card h4{
+
+margin-top:-3rem;
+    font-size:1.3rem;
+    
+    color:red;
+
+}
+.a-card p{
+    margin-bottom: -1rem;
+    color: black;
+}
+@media  screen and (max-width:850px){
+
+.portfolio{
+
+
+    margin: 4rem 2rem;
+}
+.aboutcard{
+
+    margin-top: 0rem;
+    flex-direction: column;
+
+}
+.a-card{
+    width: 90%;
+    height:85%;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+
+}
+.a-image{
+
+    size:40px;
+    height:180px;
+    width:150px;
+    overflow: hidden;
+    border-radius: 5px;;
+    position: center;
+    margin-left: 84px;
+}
+.a-card h4{
+
+
+    font-size:1rem;
+    padding:.9rem 0 .2rem 0;
+    color:red;
+    padding-right: 5%;
+
+}
+.portfolio h1{
+    font-size: 1rem;
+    color: blue;
+    margin-left:150px;
+   
+}
+
+.portfolio h4{
+
+    font-size: 1rem;
+    color:red;
+    margin-left:80px;
+}
+.aboutcard{
+    background-color: white;
+
+    margin-top: 0rem;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 2rem;
+
+}
+
+.a-card{
+    width: 85%;
+    height:70%;
+    text-align: start;
+    box-shadow:1px 3px 4px 2px rgba(223, 43, 43, 0.795);
+    border-radius: 7px;
+    cursor:pointer;
+    padding:1rem  .8rem;
+    padding-bottom: 50%;
+   
+
+
+}
+
+}
+    

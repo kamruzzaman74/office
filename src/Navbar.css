@@ -1,0 +1,99 @@
+
+
+nav{
+
+    height:50%;
+    background-color: rgb(233, 16, 16);
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+  
+    
+}
+.logo-contain{
+
+    margin-left: 0px;
+}
+.icon{
+    color: rgb(238, 255, 0);
+}
+.icon:hover{
+    color: black;
+}
+
+
+
+.logo{
+    width:130px;
+    
+    margin-left: 0px;
+    background-color: aqua;
+
+}
+
+.listItem{
+
+    margin:2rem;
+    color:aliceblue;
+    font-size: medium;
+  
+    margin-top: 1rem;
+    text-decoration: none;
+  
+
+
+
+}
+
+nav:active{
+    color:rgb(247, 15, 45);
+}
+.listItem:hover{
+    color:rgb(18, 22, 221);
+    border-bottom:1em rgb(12, 3, 3);
+}
+@media screen and (max-width: 960px) {
+    html{
+        font-size:small;
+    }
+    .icon{
+        display: flex;
+        color: rgb(21, 226, 82);
+        position:sticky;
+    }
+
+nav{
+
+    flex-direction: column;
+    height:8%;
+    background-color: rgb(8, 231, 231);
+}
+.logo{
+    width: 140px;
+    height: 90px;
+   
+    margin-left: 1px;
+    
+}
+.list{
+    flex-direction:row;
+
+}
+.listItem{
+    color: black;
+
+    margin-top:.1em;
+    font-size: small;
+    display:flex;
+    flex-direction: column;
+}
+.listItem:hover{
+    color:rgb(221, 18, 18);
+    border-bottom:1em rgb(12, 3, 3);
+}
+.icon{
+    color: rgb(255, 81, 0);
+}
+   
+}
+

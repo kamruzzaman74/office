@@ -1,0 +1,168 @@
+.experiance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+    height:30vh;
+    margin-bottom: 2rem;
+
+
+
+}
+.achivement{
+
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.circle{
+    width:10rem;
+    height: 10rem;
+    background:yellow;
+    border-radius: 200%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+   
+    
+
+
+}
+
+.circle::before{
+
+    border-radius: 150%;
+    content:'';
+    background-image:red;
+    top:-8px;
+    left:-8px;
+    bottom: -8px;
+    right:-8px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: var(--boxShadow);
+}
+
+.achivement span:nth-of-type(2){
+
+
+    color: blue;
+}
+
+.blog{
+
+    
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+    height:70vh;
+    width:50%;
+    margin-bottom: 9rem;
+padding-left: 20%;
+margin-top: 10%;
+
+
+
+}
+h1{
+    color:red;
+}
+
+
+@media  screen and (max-width:850px){
+
+    .experiance{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:3rem;
+        height:30vh;
+        margin-bottom: 2rem;
+    
+    
+    
+    }
+    .achivement{
+    
+    
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7rem;
+        
+    }
+    
+    .circle{
+        width:4rem;
+        height: 4rem;
+        background:yellow;
+        border-radius: 100%;
+        position: relative;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        margin-left: 1em;
+       
+        
+    
+    
+    }
+    
+    .circle::before{
+    
+        border-radius: 150%;
+        content:'';
+        background-image:red;
+        top:-8px;
+        left:-8px;
+        bottom: -8px;
+        right:-8px;
+        position: absolute;
+        z-index: -1;
+        box-shadow: var(--boxShadow);
+    }
+    
+    .achivement span:nth-of-type(2){
+    
+    
+        color: blue;
+    }
+    
+    .blog{
+    
+        
+        align-items: center;
+        justify-content: center;
+        gap:5rem;
+        height:70vh;
+        width:50%;
+        margin-bottom: 9rem;
+    padding-left: 20%;
+    margin-top: 10%;
+    
+    
+    
+    }
+    h1{
+
+
+        color: red;
+        padding-left: 20%;
+
+    }
+    p{
+        padding-left: 15%;
+        color: rgb(15, 48, 48);
+    }
+
+}

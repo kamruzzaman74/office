@@ -1,0 +1,108 @@
+.mainSection{
+
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+.contentBox{
+    width:50;
+    background-color:white;
+    padding-left: 2.3em;
+}
+.contentBox h1{
+    font-size: 2.2em;
+    color: black;
+}
+.contentBox p{
+    font-size: 1.2em;
+    margin:1em 0;
+  
+}
+.btnBox{
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.btn{
+    background-color: aqua;
+    border:2px solid black;
+    border-radius: 2em;
+    background-image: white;
+    
+}
+.btn:hover{
+    color: red;
+}
+.read-more{
+    display: inline-block;
+    font-size: 1rem;
+    padding:.5em 1.5em;
+    text-decoration: none;
+    border-radius: 2em;
+}
+.imageContainer{
+    width:100%;
+}
+.imageContainer img{
+    
+    margin:0 auto;
+    display: block;
+
+}
+h3{
+
+    color: blue;
+}
+@media screen and (max-width: 960px) {
+html{
+
+
+    font-size: 13px;
+}
+
+
+.mainSection{
+
+    flex-direction: column;
+    margin-top: 1em;
+    justify-content: space-around;
+    align-items:flex-start;
+    padding-left: 17%;
+    padding-right: 10%;
+
+}
+.contentBox{
+    width:80%;
+    background-color:white;
+    padding-left: 1em;
+    margin-top: 0 auto;
+}
+.contentBox h1{
+    font-size: 2em;
+    padding-left: 4%;
+}
+.contentBox p{
+    font-size: 1em;
+    margin:1em 0;
+  
+}
+.imageContainer{
+    width:70%;
+    padding-left: 0.2%;
+    padding-right: 3%;
+}
+.img3{
+    size: 100px;
+    width: 70px;
+}
+.imageContainer img{
+    width:180%;
+   margin-bottom: .1em;
+  
+
+}
+
+}

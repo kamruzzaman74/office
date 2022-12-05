@@ -1,0 +1,154 @@
+.services{
+
+
+    margin:4rem 6rem;
+    color:black;
+ 
+
+}
+.services h1{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-top: -3rem;
+   
+}
+
+.services h4{
+
+    font-size: 1rem;
+    color:rgb(26, 22, 22);
+}
+.service-card{
+
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+.s-card{
+    width: 25%;
+    height:20%;
+    text-align: start;
+    box-shadow: 1px -1px 2px 1px rgba(240, 13, 13, 0.075);
+    
+    border-radius: 2px;
+    cursor:pointer;
+    padding:1rem  .8rem;
+    padding-bottom: 15%;
+    background-color:white;
+
+
+}
+.s-image{
+
+    size:150px;
+    height:270px;
+    width: 190px;
+    overflow: hidden;
+    border-radius: 3px;;
+    padding-left: 15%;
+}
+.s-image img{
+    width:77%;
+    height:77%;
+    transition:0.3s ese-in-out;
+    border-radius:5px;
+
+}
+.s-image:hover img{
+
+    transform:scale(1.2);
+
+}
+.s-card h4{
+
+margin-top:-2rem;
+    font-size:1.3rem;
+    
+    color:red;
+    
+
+}
+.s-card p{
+    margin-bottom: -1rem;
+    color: black;
+    font-size: 1.3rem;
+}
+@media  screen and (max-width:850px){
+
+.services{
+
+
+    margin: 4rem 2rem;
+}
+.service-card{
+
+    margin-top: 0rem;
+    flex-direction: column;
+
+}
+.s-card{
+    width: 90%;
+    height:80%;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+
+}
+.s-image{
+
+    size:40px;
+    height:180px;
+    width:150px;
+    overflow: hidden;
+    border-radius: 5px;;
+    position: center;
+    margin-left: 70px;
+}
+.s-card h4{
+
+
+    font-size:1rem;
+    padding:.9rem 0 .2rem 0;
+    color:red;
+    padding-left: 15%;
+
+}
+.services h1{
+    font-size: 1rem;
+    color: blue;
+    margin-left:150px;
+   
+}
+
+.services h4{
+
+    font-size: 1rem;
+    color:red;
+    margin-left:80px;
+}
+.service-card{
+
+    margin-top: 0rem;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 2rem;
+
+}
+
+.s-card{
+    width: 85%;
+    height:70%;
+    text-align: start;
+    box-shadow: 10px 5px 25px 2px rgba(9,0,0,0.11);
+    border-radius: 7px;
+    cursor:pointer;
+    padding:1rem  .8rem;
+    padding-bottom: 50%;
+   
+
+
+}
+
+}
+    
